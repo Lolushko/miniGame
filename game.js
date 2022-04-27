@@ -86,7 +86,7 @@ function renderBox() {
 
     let box = document.createElement('div')
 
-    let = boxSize = (getRandom(10, 50 ))
+    let = boxSize = (getRandom(30, 70 ))
 
     let gameSize = $game.getBoundingClientRect()
 
