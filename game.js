@@ -34,7 +34,7 @@ function startGame() {
     let interval = setInterval(function(){
         let time = parseFloat($time.textContent)
 
-        if (time <= 5) {
+        if (time <= 0) {
             clearInterval(interval)
             endGame()
         } else {
